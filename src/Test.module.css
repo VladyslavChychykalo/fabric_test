@@ -1,0 +1,51 @@
+.test > div {
+  /* max-width: fit-content; */
+  display: inline-block !important;
+}
+
+.canvasContainer {
+  position: relative;
+}
+
+.canvasHeight {
+  /* position: absolute;
+  color: #fff;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -60px;
+  font-size: 14px; */
+
+  /* \======================= */
+
+  position: absolute;
+  color: #fff;
+  top: 5px;
+  bottom: 5px;
+  left: -70px;
+  font-size: 14px;
+  border-right: 1px solid #fff;
+  display: flex;
+  align-items: center;
+  padding-right: 10px;
+}
+
+.canvasWidth {
+  /* position: absolute;
+  color: #fff;
+  bottom: -14px;
+  transform: translateX(-50%);
+  left: 50%;
+  font-size: 14px; */
+
+  /* ========================= */
+
+  position: absolute;
+  color: #fff;
+  bottom: -30px;
+  left: 50%;
+  font-size: 14px;
+  left: 0;
+  right: 0;
+  border-top: 1px solid #fff;
+  padding-top: 10px;
+}
